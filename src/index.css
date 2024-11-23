@@ -1,24 +1,16 @@
 * {
-  font-family: "Inter", sans-serif;
+  font-family: "Press Start 2P", system-ui;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   color: #202124;
 }
 
-h1,
-h2,
-h3,
-input,
-button {
-  font-family: "Press Start 2P", system-ui;
-}
-
 #root {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  padding: 14px;
+  padding: 2rem;
   background: #eff6ff;
   gap: 14px;
 }
@@ -32,7 +24,7 @@ header,
 .main {
   max-width: 800px;
   width: 100%;
-  margin: 0 auto;
+  margin: 20px auto;
   gap: 14px;
 }
 
@@ -63,7 +55,7 @@ header input {
 }
 
 p {
-  font-size: 0.9em;
+  font-size: 20px;
 }
 
 .main {
